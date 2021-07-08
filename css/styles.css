@@ -91,6 +91,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  text-shadow: 2px 2px #200;
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -7418,7 +7419,7 @@ textarea.form-control-lg {
 .bg-image {
    background-position: center 20%;
    background-size: cover;
-   background-color: #faa;
+   background-color: #dcc;
    background-blend-mode: multiply;
 }
 
@@ -7427,8 +7428,8 @@ textarea.form-control-lg {
    background-image:
      linear-gradient(to left, rgba(235, 215, 215, 1), rgba(150, 80, 80, 0.7)),
      url('https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/4f/49/ce/4f49ce42-31da-21e0-a564-f3ce9766fb12/source/600x600bb.jpg');
-     width: 100%;
-     height: 600px;
+     background-size: cover;
+     background-position: center;
      color: white;
      padding: 30px;
 }
