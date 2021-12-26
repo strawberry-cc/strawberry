@@ -93,6 +93,8 @@ h1, .h1 {
 h2, .h2 {
   text-shadow: 2px 2px rgba(0,0,0,0.6);
   font-size: calc(1.325rem + 0.9vw);
+  color: #fff;
+  mix-blend-mode: difference;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -7426,24 +7428,12 @@ textarea.form-control-lg {
 .bg-album {
    background-repeat: no-repeat;
    background-image:
-     linear-gradient(to left, rgba(215, 215, 215, 1), rgba(60, 60, 60, 0.3)),
-     url('https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/4f/49/ce/4f49ce42-31da-21e0-a564-f3ce9766fb12/source/600x600bb.jpg');
-     background-size: cover;
-     background-position: center;
      color: white;
+     background-position: center;
+     background-size: cover;
      padding: 30px;
 }
 
-.bg-album2 {
-   background-repeat: no-repeat;
-   background-image:
-     linear-gradient(to left, rgba(215, 215, 215, 1), rgba(60, 60, 60, 0.3)),
-     url('https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/a3/30/bf/a330bfc7-a227-8088-331e-1422e196e69e/source/600x600bb.jpg');
-     background-size: cover;
-     background-position: top;
-     color: white;
-     padding: 30px;
-}
 .bg-primary {
   background-color: #0d6efd !important;
 }
@@ -10905,4 +10895,30 @@ header {
 section {
   padding-top: 9rem;
   padding-bottom: 9rem;
+}
+
+#one {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/4f/49/ce/4f49ce42-31da-21e0-a564-f3ce9766fb12/source/600x600bb.jpg');
+}
+
+#two {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/a3/30/bf/a330bfc7-a227-8088-331e-1422e196e69e/source/600x600bb.jpg');
+}
+
+#three {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/ba/e9/bebae9cb-1bd6-81d3-0812-cadbfc598d19/source/600x600bb.jpg');
+}
+
+#four {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/50/3c/b8/503cb8d7-681e-fe93-a744-7a429b246db2/source/600x600bb.jpg');
+}
+
+li {
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+p {
+  color: #fff;
+  mix-blend-mode: difference;
 }
