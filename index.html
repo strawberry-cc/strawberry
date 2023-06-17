@@ -1,153 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Strawberry" />
-        <meta property="og:title" content="Strawberry's page!" />
-    		<meta property="og:type" content="website" />
-    		<meta property="og:url" content="https://strawberry.reisen/" />
-    		<meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/e1/e1676ee89e520f1a5927069068095b048e7bced5_full.jpg" />
-    		<meta property="og:description" content="Strawberry's personal home page!" />
-    		<meta name="theme-color" content="#ffa1e6">
-        <title>Strawberry's page!</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="./css/styles.css" rel="stylesheet" />
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="mainNav">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">Strawberry</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#music">Music List</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
-                    </ul>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Strawberry">
+    <meta property="og:title" content="Strawberry's page!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://strawberry.reisen/">
+    <meta property="og:image"
+        content="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/e1/e1676ee89e520f1a5927069068095b048e7bced5_full.jpg">
+    <meta property="og:description" content="strawberry's home page!">
+    <meta name="theme-color" content="#ffa1e6">
+    <title>Strawberry's page!</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Profile</h1>
+    </header>
+
+    <section class="profile">
+        <div class="profile-info">
+            <img src="https://s4.anilist.co/file/anilistcdn/user/avatar/large/b525754-9BYQ9f62pXTR.png"
+                alt="Profile Picture">
+            <h2>strawberry</h2>
+            <p>I'm so gay</p>
+        </div>
+    </section>
+
+    <section class="social-links">
+        <!--<h2>Links</h2>-->
+        <ul>
+          <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://store.steampowered.com"><i class="fab fa-steam"></i></a></li>
+          <li><a href="https://www.reddit.com"><i class="fab fa-reddit"></i></a></li>
+          <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://www.last.fm"><i class="fab fa-lastfm"></i></a></li>
+          <li><a href="https://rateyourmusic.com"><i class="fas fa-compact-disc"></i></a></li>
+          <li><a href="https://letterboxd.com"><img src="https://simpleicons.org/icons/letterboxd.svg" alt="Letterboxd" class="svg-icon"></a></li>
+          <li><a href="https://myanimelist.net"><img src="https://simpleicons.org/icons/myanimelist.svg" alt="MyAnimeList" class="svg-icon"></a></li>
+          <li><a href="https://anilist.co"><img src="https://simpleicons.org/icons/anilist.svg" alt="AniList" class="svg-icon"></a></li>
+          <li><a href="https://www.spotify.com"><i class="fab fa-spotify"></i></a></li>
+        </ul>
+      </section>
+      
+    <section class="letterboxd">
+        <h2>Letterboxd</h2>
+        <div class="letterboxd-box">
+            <h3>Under construction</h3>
+            <ul>
+                <li>some movie</li>
+            </ul>
+        </div>
+        <div class="letterboxd-box">
+            <h3>Recent Reviews</h3>
+            <ul>
+                <li>Avengers: Endgame - 0/5</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="topster">
+        <h2>Topster</h2>
+        <div class="topster-wrapper">
+            <div class="sidebar-left"></div>
+            <div class="topster-container-wrapper">
+                <div class="topster-container"></div>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-image text-white" style="background-image: url('assets/kon.jpg');">
-            <div class="container px-4 py-6 text-center">
-                <h1 class="fw-bolder">Hello, I'm Strawberry!</h1>
-                <p class="lead">Welcome to my home page!</p>
-                <a class="btn btn-lg btn-light" href="#music">Here's what I've been listening to</a>
-            </div>
-        </header>
-        <!-- About section-->
-        <section class="bg-album" id="four">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-10">
-                        <div style="float: right; margin: 2px 30px 0px 0px; width: 256px;">
-                        <img style="margin: auto; margin-bottom: 15px;" src="https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/50/3c/b8/503cb8d7-681e-fe93-a744-7a429b246db2/source/600x600bb.jpg" alt="Turnstile - Glow On" width="256" height="256">
-                        <iframe class="child" src="https://open.spotify.com/embed/album/2NrYPcMmQBlbBxopc2XlzS" width="256" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        <h2>Turnstile - Glow On</h2>
-                        <p class="lead">Something I Don't Usually Listen To</p>
-                        <ul>
-                            <li>Length: 15 tracks, 34:51</li>
-                            <li>Release Date: 27 August 2021</li>
-                            <p class="lead">8/10</p>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About section-->
-        <section class="bg-album" id="three">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-10">
-                        <div style="float: left; margin: 2px 30px 0px 0px; width: 256px;">
-                        <img style="margin: auto; margin-bottom: 15px;" src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/ba/e9/bebae9cb-1bd6-81d3-0812-cadbfc598d19/source/600x600bb.jpg" alt="Injury Reserve - By The Time I Get To Phoenix" width="256" height="256">
-                        <iframe class="child" src="https://open.spotify.com/embed/album/7L7oMPboBCeyGLJVsHSWM2" width="256" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        <h2>Injury Reserve - By The Time I Get To Phoenix</h2>
-                        <p class="lead">Album of The Year 2021</p>
-                        <ul>
-                          <li>Length: 11 tracks, 41:09</li>
-                          <li>Release Date: 15 September 2021</li>
-                          <p class="lead">9/10</p>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--About section-->
-        <section class="bg-album" id="two">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-10">
-                        <div style="float: right; margin: 2px 30px 0px 0px; width: 256px;">
-                        <img style="margin: auto; margin-bottom: 15px;" src="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/a3/30/bf/a330bfc7-a227-8088-331e-1422e196e69e/source/600x600bb.jpg" alt="Rei - HONEY" width="256" height="256">
-                        <iframe class="child" src="https://open.spotify.com/embed/album/7vI4CWDO2sPjoJhFvNo3cR" width="256" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        <h2>Rei - HONEY</h2>
-                        <p class="lead">Album of The Year 2020</p>
-                        <ul>
-                            <li>Length: 11 tracks, 37:10</li>
-                            <li>Release Date: 25 November 2020</li>
-                            <p class="lead">9/10</p>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About section-->
-        <section class="bg-album" id="one">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-10">
-                        <div style="float: left; margin: 2px 30px 0px 0px; width: 256px;">
-                        <img style="margin: auto; margin-bottom: 15px;" src="https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/4f/49/ce/4f49ce42-31da-21e0-a564-f3ce9766fb12/source/600x600bb.jpg" alt="Panchiko - DEATHMETAL" width="256" height="256">
-                        <iframe class="child" src="https://open.spotify.com/embed/album/7FWEOSHm38Sq7dybOA4w7D" width="256" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        <h2>Panchiko - D>E>A>T>H>M>E>T>A>L</h2>
-                        <p class="lead">Prententious Classic</p>
-                        <ul>
-                            <li>Length: 4 tracks, 18:17</li>
-                            <li>Release Date: 18 June 2000</li>
-                            <p class="lead">8/10</p>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services section-->
-        <!-- <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>headline2</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Contact section-->
-        <!-- <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>headline3</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container px-4"><p class="m-0 text-center text-white">boba sexa © 2021</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
-        <!-- Core theme JS-->
-        <!-- <script src="js/scripts.js"></script> -->
-    </body>
+            <div class="sidebar"></div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 strawberry. All rights reserved.
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
